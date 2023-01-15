@@ -12,7 +12,6 @@ Down below is what I did at my internship
 
 ### **2nd week(2023-01-02~2023-01-06)**
 
-
 - Technical analysis of Virtual ECU(Electronic Control Unit) SW
 
 - Market research of Virtual ECU SW
@@ -25,63 +24,26 @@ Down below is what I did at my internship
   3. LED multiple blinking with different timing(1sec, 2sec, 4sec rising edge triggered)
   4. LED Shift blinking
   5. LED blinking with button input
-  6. Serial output of LED with button input : button input -> LED on(Serial output) -> botton input -> LED off(Serial output) -> (Continue ...)
-  7. Serial output of LED shift with button input : button input -> R_LED on/G_LED off/B_LED off(Serial output) -> button input -> R_LED off/G_LED on/B_LED off(Serial    output) -> button input -> R_LED off/G_LED off/B_LED on(Serial output) -> (Continue...)
-  8. LED control with Serial input : RGB_LED`s control with serial input i.e. 1(Serial input)->R_LED on, 2(Serial input)->G_LED on, 3(Serial input)->B_LED on
-  9. Bitwise operation with Serial input
-    -AND : R_LED on(Serial input) & G_LED on(Serial input) -> B_LED on
+  6. Serial output of LED with button input(UART) : button input -> LED on(Serial output) -> botton input -> LED off(Serial output) -> (Continue ...)
+  7. Serial output of LED shift with button input(UART) : button input -> R_LED on/G_LED off/B_LED off(Serial output) -> button input -> R_LED off/G_LED on/B_LED          off(Serial output) -> button input -> R_LED off/G_LED off/B_LED on(Serial output) -> (Continue...)
+  8. LED control with Serial input(UART) : RGB_LED`s control with serial input i.e. 1(Serial input)->R_LED on, 2(Serial input)->G_LED on, 3(Serial input)->B_LED on
+  9. Bitwise operation with Serial input(UART) : R_LED, B_LED is Serial input. Use these two serial input to do AND, OR, NOT, XOR, NAND, NOR, XNOR operations to make      output in B_LED
+
+### **3rd week(2023-01-09~2023-01-13)**
+
+- Technical analysis of ASAM XIL and ASAM XIL SW structure
     
-    -OR : R_LED on(Serial input) or G_LED on(Serial input) -> B_LED on
-    
-    -NOT : Toggling if there`s Serial input 
-    
-    -XOR : R_LED on(Serial input) & G_LED on(Serial input) -> B_LED off, Either is on(Serial input) -> B_LED on, Both is off(Serial input) -> B_LED off 
-    
-    -NAND : R_LED 가 켜지거나 G_LED가 켜지면 B_LED 켜짐(단 R_LED, G_LED가 켜지면 B_LED 꺼짐), RG_LED 꺼지면 B_LED 켜짐
-    
-    -NOR : RG_LED 둘다 꺼진 경우에만 B_LED 켜짐
-    
-    -XNOR : RG_LED 둘다 꺼지거나 켜진 경우에만 B_LED 켜짐
+- Cortex-M4 Practice : I2C, SPI communication and LCD Driver porting
+  1. I2C, Uart, SPI Communication setting
 
-# **3주차(2023-01-09~2023-01-13)**
+  2. Connection between board and PC using UART
+  
+  3. PC->board UART command transfer
 
-**[ 해리 ]**
+  4. board->board I2C/SPI data transfer/receive by command
 
-- vECU : ASAM Xil 표준의 이해 및 분석
-    
-    - ASAM XiL 표준 분석 및 활용에 대한 자료조사
-    
-    - ASAM XiL 소프트웨어의 구조 파악 및 분석/발표
-    
-- Cortex-M4 실습 : I2C, SPI 통신 구현 및 LCD Driver 포팅 실습 및 발표
-    
-    
+  5. Received data output on PC terminal
 
-**[ 옥동자 ]**
-
-- vECU : 과제 기반(Autoas) 구조 파악
-
-**[ 실습내용 ]**
-
-통신 실습의 경우 송/수신 데이터 확인을 위해 2인 1조로 진행 함. 
-
-1) I2C, Uart, SPI 통신 설정.
-
-2) 보드와 PC를 Uart로 연결.
-
-3) PC→보드 Uart로 명령어 송신.
-
-4) 명령어에 따라 I2C / SPI 데이터 송/수신 테스트 진행
-
-5) 수신측은 전달 받은 데이터를 PC 터미널을 통해 값 출력
-
-## 각 통신 의 세부 설정은 A,B 협의하에 설정 하면 됨.
-
-## SPI의 경우 A,B 협의하에 wire mode(3or4) 선택 및 Master, Slave 역할 선택하여 진행
-
- ## LCD 드라이버 포팅의 경우 설명으로 대체. (어떤방식으로 디바이스들을 초기화 하는것인지 )
-
-1) 간략하게 정리하여, LCD 디바이스 드라이버 동작 루틴 설명
 
 ---
 
