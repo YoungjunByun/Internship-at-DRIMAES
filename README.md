@@ -16,7 +16,7 @@ Down below is what I did at my internship
 
 - Market research of Virtual ECU SW
 
-- Technical analysis of Automotive Network
+- Technical analysis of Automotive Network System
 
 - Patent research of Virtual ECU SW
 
