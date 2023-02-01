@@ -38,23 +38,52 @@ Down below is what I did at my internship
 - Technical analysis of ASAM XIL and ASAM XIL SW structure
     
 - Cortex-M4 Practice : I2C, SPI communication and LCD Driver porting
+
+- Cortex-M4 HW
   1. I2C, Uart, SPI Communication setting
-
   2. Connection between board and PC using UART
-  
   3. PC->board UART command transfer
-
   4. board->board I2C/SPI data transfer/receive by command
-
   5. Received data output on PC terminal
+
+
 
 
 ---
 
 
-**[3주차 숙제] (2023-01-13~2023-01-18)**
 
-숙제도 실습과 마찬가지로 송/수신 데이터 확인을 위해 2인 1조로 진행 함. 
+
+숙제도 실습과 마찬가지로 
+
+     
+     
+     
+     
+
+# **4주차(2023-01-16~2023-01-20)**
+
+[ 해리 ]
+
+- vECU : FMI의 이해 및 분석
+    
+    - 가상 ECU를 위한 FMI 2.0 / 3.0 개요 및 분석
+    
+    - FMI 2.0/3.0 간단한 예제 실습 및 발표
+    
+- Cortex-M4 실습 : CAN, CAN-FD 통신 구현 실습 및 발표
+
+**[ 로키 ]** 
+
+- vECU : 2022년도 ASAM-XiL 구현 파트 정리 및 발표
+
+**[ 옥동자 ]**
+
+- vECU : 과제 기반(Autoas) 구조 파악 및 내용 발표
+    
+ 
+- Cortex-M4 HW
+송/수신 데이터 확인을 위해 2인 1조로 진행 함. 
 
 1)  각자 3개의 레지스터를 가지고 있으며, 3개는 [ 본인의 버튼 상태 ] , [ 상대의 버튼 상태 ],
 
@@ -84,28 +113,6 @@ Down below is what I did at my internship
 
    ON/OFF 적용.
 
-     * 시나리오 설명이 필요할 경우 트루먼으로 문의 주시면 됩니다.
-
-# **4주차(2023-01-16~2023-01-20)**
-
-[ 해리 ]
-
-- vECU : FMI의 이해 및 분석
-    
-    - 가상 ECU를 위한 FMI 2.0 / 3.0 개요 및 분석
-    
-    - FMI 2.0/3.0 간단한 예제 실습 및 발표
-    
-- Cortex-M4 실습 : CAN, CAN-FD 통신 구현 실습 및 발표
-
-**[ 로키 ]** 
-
-- vECU : 2022년도 ASAM-XiL 구현 파트 정리 및 발표
-
-**[ 옥동자 ]**
-
-- vECU : 과제 기반(Autoas) 구조 파악 및 내용 발표
-    
     
 
 **[ 공통 ]**
