@@ -21,6 +21,8 @@ Down below is what I did at my internship
 - Patent research of Virtual ECU SW
 
 - Cortex-M4 Practice : LED controlling based on GPIO, TIMER, CLOCK
+
+- Cortex-M4 HW
   1. LED On/Off
   2. LED Blinking
   3. LED multiple blinking with different timing(1sec, 2sec, 4sec rising edge triggered)
