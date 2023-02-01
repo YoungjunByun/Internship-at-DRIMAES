@@ -53,99 +53,33 @@ Down below is what I did at my internship
   5. Received data output on PC terminal
 
 
+### **4th week(2023-01-16~2023-01-20)**
 
-
----
-
-
-
-
-숙제도 실습과 마찬가지로 
-
-     
-     
-     
-     
-
-# **4주차(2023-01-16~2023-01-20)**
-
-[ 해리 ]
-
-- vECU : FMI의 이해 및 분석
+- vECU : Technical Analysis of FMI(Functional Mock-up Interface)
     
-    - 가상 ECU를 위한 FMI 2.0 / 3.0 개요 및 분석
+    - FMI 2.0/3.0 for Virtual ECU
     
-    - FMI 2.0/3.0 간단한 예제 실습 및 발표
+    - FMI 2.0/3.0 practice
+  
+- ASAM Structural Analysis
     
-- Cortex-M4 실습 : CAN, CAN-FD 통신 구현 실습 및 발표
+- Cortex-M4 Practice : I2C, SPI communication and LCD Driver porting
 
-**[ 로키 ]** 
 
-- vECU : 2022년도 ASAM-XiL 구현 파트 정리 및 발표
+### **5th week(2023-01-23~2023-01-27)**
 
-**[ 옥동자 ]**
-
-- vECU : 과제 기반(Autoas) 구조 파악 및 내용 발표
+- vECU : Technical Analysis of OTA
     
- 
-- Cortex-M4 HW
-송/수신 데이터 확인을 위해 2인 1조로 진행 함. 
-
-1)  각자 3개의 레지스터를 가지고 있으며, 3개는 [ 본인의 버튼 상태 ] , [ 상대의 버튼 상태 ],
-
-    [ 통신 모드 상태 ]이고, 1초마다 설정 된 통신모드 (I2C 또는 SPI) 를 통해 상대의 레지스터를 
-
-   읽어와 Uart를 통해  본인 PC에 레지스터값을 출력 및 통신 모드 상태 LED 값 변경.
-
-   ( 본인이 갖고 있는 값이 아닌 읽어온 값만을 터미널 출력. LED 상태 변경도 마찬 가지 임..)
-
-   통신상태모드: I2C = R_LED, SPI = B_LED
-
-2) 각 보드는 본인의 버튼 상태가 변경 될 경우 [ 본인의 버튼 상태 ] 레지스터를 업데이트 한 후  
-
-    I2C 또는 SPI를 통해 상태를 상대측으로 송신 하고, 수신 측에서는 상태 변경 메시지를 Uart로 
-
-   출력 함.
-
-3) 버튼 롱키 입력 시 통신 모드를 변경 ( I2C <-> SPI ) 하고 변경 된 통신 프로토콜을 통해 
-
-   상태를 송신 하고, 수신측에서는 상태 변경 메세지를 Uart를 통해 PC에 출력 
-
-    ( 통신 모드 변경 전 변경 데이터 전송시에는 이전 통신 프로토콜을 통해 모드 변경 데이터 전
-
-    송을 하며 변경이 완료 되었을 경우, 변경 된 프로토콜을 통해 통신 모드 상태를 전송 함.)
-
-* 추가로 통신중에 led 깜빡임을 추가 해보고 싶으신분들은 G_LED를 0.2초 간격으로 
-
-   ON/OFF 적용.
-
+    - OTA technology and OTA market
     
-
-**[ 공통 ]**
-
-- Cortex-M4 실습 : CAN-FD 통신 구현 실습
-
----
-
-# **5주차(2023-01-23~2023-01-27)**
-
-**[ 해리 ]**
-
-- vECU : OTA 깃술의 이해 및 분석
-    
-    - OTA 기술에 대한 이해 및 업계 동향 파악 자료조사 및 발표
-    
-    - OTA agent/client/server에 대한 이해 및 자료 분석
+    - OTA agent/client/server analysis
     
 - Cortex-M4 실습 : 모터 + LED + 마이컴 간 통신
 
----
 
-# **6주차(2023-01-30~2023-02-03)**
+### **6th week(2023-01-30~2023-02-03)**
 
-**[ 해리 ]**
-
-- vECU : Vector사 툴 교육 참여
+- vECU : Vector company tool seminar
     
     - DIGST 방문 및 Vector사 툴 교육 참여
     
