@@ -16,6 +16,8 @@ Down below is what I did at my internship
 
 - Market research of Virtual ECU SW
 
+- Technical analysis of Automotive Network
+
 - Patent research of Virtual ECU SW
 
 - Cortex-M4 Practice : LED controlling based on GPIO, TIMER, CLOCK
