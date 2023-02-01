@@ -1,8 +1,14 @@
 # Internship at DRIMAES
 
-This repository is to restore my work as an intern researcher in SDV(Software Defined Vehicle) center at DRIMAES.
+This repository is to restore my work as an Associate Research Engineer in SDV(Software Defined Vehicle) center at DRIMAES.
 
 Down below is what I did at my internship
+
+*IDE Used : STM32CubeIDE and ArduinoIDE
+
+*Board Used : STM32f303zet6
+
+
 
 ### **1st week (2022-12-26~2022-12-30)**
 
