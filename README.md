@@ -68,38 +68,29 @@ Down below is what I did at my internship
 
 ### **5th week(2023-01-23~2023-01-27)**
 
-- vECU : Technical Analysis of OTA
+- OTA : Technical Analysis of OTA
     
     - OTA technology and OTA market
     
     - OTA agent/client/server analysis
     
-- Cortex-M4 실습 : 모터 + LED + 마이컴 간 통신
+- vECU : AUTOAS system structure analysis and execution
+ 
+    
+- Cortex-M4 practice : Motor + LED + Cortex-M4 Communication
 
 
 ### **6th week(2023-01-30~2023-02-03)**
-
-- vECU : Vector company tool seminar
     
-    - DIGST 방문 및 Vector사 툴 교육 참여
-    
-    - DIGST 교육 내용 기반 자료 작성 및 발표 
-    
-- Cortex-M4 실습 : LIN 통신
+- Cortex-M4 practice : 5x5 Dot Matrix, PWM motor control(with power module, motor module, 3-input switch module, Bread Board)
     
     
 
 ---
 
-# **7주차(2023-02-06~2023-02-10)**
-
-**[ 해리 & 로키 ]**
-
-- vECU : Vector사 툴 연동 테스트
+# **7th week(2023-02-06~2023-02-10)**
     
-    - Vector사 툴↔ASAM-XiL 연동 테스트
-    
-- Cortex-M4 실습 : Ethernet 통신
+- RasberryPI practice
     
     
 
