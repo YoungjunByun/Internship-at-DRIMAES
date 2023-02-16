@@ -90,13 +90,11 @@ Down below is what I did at my internship
 ### **7th week(2023-02-06~2023-02-10)**
     
 - SOME/IP Test Sheet Analysis
-   - Method, Field, Interface analysis
+   - Method, Event, Field analysis
     
     
 
 ### **8th week(2023-02-13~2023-02-17)**
-
-**[ 해리 ]**
 
 - Embedded Linux Using Yocto analysis 
   - Practices are done with Raspberry Pi3/4
