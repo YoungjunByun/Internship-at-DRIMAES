@@ -86,22 +86,17 @@ Down below is what I did at my internship
     
     
 
----
 
-# **7th week(2023-02-06~2023-02-10)**
+### **7th week(2023-02-06~2023-02-10)**
     
-- RasberryPI practice
+- SOME/IP Test Sheet Analysis
+   - Method, Field, Interface analysis
     
     
 
----
-
-# **8주차(2023-02-13~2023-02-17)**
+### **8th week(2023-02-13~2023-02-17)**
 
 **[ 해리 ]**
 
-- vECU : 최종정리
-    
-    - 가상 ECU 및 차량통신 네트워크에 관한 시장 동향 및 기술 보고서 작성
-    
-    - OTA 기술에 대한 시장 동향 및 기술 보고서 작성
+- Embedded Linux Using Yocto analysis 
+  - Practices are done with Raspberry Pi3/4
