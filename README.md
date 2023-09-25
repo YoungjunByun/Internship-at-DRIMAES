@@ -92,7 +92,8 @@ Down below is what I did at my internship
 - SOME/IP Test Sheet Analysis
    - Method, Event, Field analysis
     
-    
+    DRIMAES SDV(Software Defined Vehicle) Center Internship(12.2022 - 02.2023)
+- Continental 사의 SOME/IP 코드 점검 후 Test Sheet 작성 : Method, Event, Field analysis
 
 ### **8th week(2023-02-13~2023-02-17)**
 
